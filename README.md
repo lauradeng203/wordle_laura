@@ -14,7 +14,7 @@ EDITS:
 
 ADDED:
 
--File "CalculateTimer.tsx": Calculates the elapsed time in seconds, minutes, and hours. Exports as an Array
+-File src/components/modals/CalculateTimer.tsx: Calculates the elapsed time in seconds, minutes, and hours. Exports as an Array
 
 
 _To Run Locally:_
