@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cell-animation {
+  animation: revealCharCell linear;
+  animation-duration: 0.15s;
+}
+
+@keyframes revealCharCell {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.timer-container {
+  color: black;
+  display: flex;
+  letter-spacing: 2px;
+  position: relative;
+  right: 10px;
+  align-items: right;
+  border: 1px solid black;
+  padding-right: 5px;
+  padding-left: 5px;
+  font-size: 20px;
+
+}
+
